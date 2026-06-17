@@ -3,13 +3,6 @@ name: Pull Request Review
 on:
   pull_request:
     branches: [ main ]
-    paths:
-      - 'chains/**'
-      - 'explorer'
-      - 'logos/**'
-      - '.github/workflows/**'
-      - '.gitmodules'
-      - 'README.md'
 
 permissions:
   contents: read
@@ -35,6 +28,12 @@ jobs:
         with:
           submodules: recursive
 
+      - name: Update explorer to latest
+        run: |
+          git submodule sync --recursive explorer
+          git submodule update --init --remote --checkout explorer
+          git -C explorer rev-parse --short HEAD
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -47,7 +46,7 @@ jobs:
 
       - name: Install dependencies
         working-directory: explorer
-        run: yarn install --frozen-lockfile
+        run: yarn install
 
       - name: Build
         working-directory: explorer
