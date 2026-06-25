@@ -1,14 +1,26 @@
 {
   "chain_name": "safrochain",
-  "registry_name": "safrochain",
   "api": [
-    { "address": "https://api1.safrochain.network", "provider": "Safrochain Foundation" },
-    { "address": "https://api2.safrochain.network", "provider": "Safrochain Foundation" }
+    {
+      "provider": "Safrochain Foundation",
+      "address": "https://api1.safrochain.network"
+    },
+    {
+      "provider": "Safrochain Foundation",
+      "address": "https://api2.safrochain.network"
+    }
   ],
   "rpc": [
-    { "address": "https://rpc1.safrochain.network", "provider": "Safrochain Foundation" },
-    { "address": "https://rpc2.safrochain.network", "provider": "Safrochain Foundation" }
+    {
+      "provider": "Safrochain Foundation",
+      "address": "https://rpc1.safrochain.network"
+    },
+    {
+      "provider": "Safrochain Foundation",
+      "address": "https://rpc2.safrochain.network"
+    }
   ],
+  "snapshot_provider": "",
   "sdk_version": "0.50",
   "coin_type": "118",
   "min_tx_fee": "5000",
@@ -23,7 +35,5 @@
       "coingecko_id": "",
       "logo": "/logos/safrochain.png"
     }
-  ],
-  "keywords": ["cosmwasm", "ibc", "feeshare", "tokenfactory"],
-  "features": ["wasm+", "ibc", "ibc-transfer", "authz", "feegrant"]
+  ]
 }
