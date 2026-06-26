@@ -31,6 +31,9 @@ jobs:
           git submodule update --init --remote --checkout explorer
           git -C explorer rev-parse --short HEAD
 
+      - name: Patch explorer CSP
+        run: scripts/patch-explorer-csp.sh
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
