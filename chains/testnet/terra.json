@@ -2,11 +2,19 @@
   "chain_name": "terra",
   "api": [
     {
+      "provider": "Nodeshub",
+      "address": "https://terra.test.api.nodeshub.online"
+    },
+    {
       "provider": "Polkachu",
       "address": "https://terra-testnet-api.polkachu.com"
     }
   ],
   "rpc": [
+    {
+      "provider": "Nodeshub",
+      "address": "https://terra.test.rpc.nodeshub.online:443"
+    },
     {
       "provider": "Polkachu",
       "address": "https://terra-testnet-rpc.polkachu.com:443"
