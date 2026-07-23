@@ -1,0 +1,28 @@
+{
+    "chain_name": "tail",
+    "api": [
+        {
+            "address": "https://api.trusttails.io",
+            "provider": "TrustTails"
+        }
+    ],
+    "rpc": [
+        {
+            "address": "https://rpc.trusttails.io",
+            "provider": "TrustTails"
+        }
+    ],
+    "sdk_version": "0.53.6",
+    "coin_type": "118",
+    "min_tx_fee": "500",
+    "assets": [{
+        "base": "utail",
+        "symbol": "TAIL",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/tail/images/logo-mark.png"
+    }],
+    "addr_prefix": "tail",
+    "theme_color": "#2563eb",
+    "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/tail/images/logo-mark.png"
+}
