@@ -1,18 +1,23 @@
 {
   "chain_name": "genesisL1",
-  "api": "https://api.genesisl1.org",
-  "rpc": [
+  "api": [
     {
-      "address": "https://26657.genesisl1.org:443",
-      "provider": "genesisl1.org:443"
+      "provider": "GenesisL1",
+      "address": "https://1317.genesisl1.org"
     },
     {
-      "address": "https://26657.genesisl1.org:443",
-      "provider": "genesisl1.org:443"
+      "provider": "GenesisL1",
+      "address": "https://api.genesisl1.org"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "GenesisL1",
+      "address": "https://26657.genesisl1.org:443"
     }
   ],
   "snapshot_provider": "",
-  "sdk_version": "0.45.4",
+  "sdk_version": "0.50.6",
   "coin_type": "118",
   "min_tx_fee": "3000000000000000",
   "addr_prefix": "genesis",
@@ -22,7 +27,7 @@
       "base": "el1",
       "symbol": "L1",
       "exponent": "18",
-      "coingecko_id": "",
+      "coingecko_id": "genesisl1",
       "logo": "/logos/genesisl1.png"
     }
   ]
