@@ -1,5 +1,6 @@
 {
   "chain_name": "genesisL1",
+  "coingecko": "genesisl1",
   "api": [
     {
       "provider": "GenesisL1",
