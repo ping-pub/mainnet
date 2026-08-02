@@ -3,11 +3,11 @@
   "api": [
     {
       "provider": "GenesisL1",
-      "address": "https://1317.genesisl1.org"
+      "address": "https://api.genesisl1.org"
     },
     {
       "provider": "GenesisL1",
-      "address": "https://api.genesisl1.org"
+      "address": "https://1317.genesisl1.org"
     }
   ],
   "rpc": [
