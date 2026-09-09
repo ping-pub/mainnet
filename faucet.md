@@ -5,8 +5,6 @@
 ```json
 {
     "chain_name": "cosmos",
-    // string array ["url1", "url2"] is deprecated.
-    // must be [{"address": "", "provider": ""}]
     "api": [
         {
             "address": "https://cosmos.api.ping.pub", 
@@ -19,7 +17,6 @@
             "provider": "Ping"
         }
     ],
-    // ... ...
     "faucet": {
         "amount": "5000000uatom,50000000uside",
         "ip_limit": "5",
@@ -27,8 +24,7 @@
         "fees": "1000uatom"
     }
 }
-```
-
+]
 ## Fund the faucet account
 
 Visit your faucet page on [testnet.ping.pub](https://testnet.ping.pub)
