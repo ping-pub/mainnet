@@ -1,0 +1,38 @@
+{
+  "chain_name": "hyve",
+  "registry_name": "hyve",
+  "api": [
+    {
+      "provider": "HyveChain",
+      "address": "https://api.hyvechain.com"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "HyveChain",
+      "address": "https://tendermint.hyvechain.com"
+    }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.53.4",
+  "coin_type": "60",
+  "min_tx_fee": "2000000000000000",
+  "addr_prefix": "hyve",
+  "logo": "/logos/hyve.png",
+  "theme_color": "#C9A227",
+  "keplr_features": [
+    "ibc-transfer",
+    "ibc-go",
+    "eth-address-gen",
+    "eth-key-sign"
+  ],
+  "assets": [
+    {
+      "base": "ahyve",
+      "symbol": "HYVE",
+      "exponent": "18",
+      "coingecko_id": "",
+      "logo": "/logos/hyve.png"
+    }
+  ]
+}
