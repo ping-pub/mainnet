@@ -2,16 +2,8 @@
   "chain_name": "sifchain",
   "api": [
     {
-      "provider": "Polkachu",
-      "address": "https://sifchain-api.polkachu.com"
-    },
-    {
-      "provider": "Allnodes",
-      "address": "https://sifchain-rest.publicnode.com"
-    },
-    {
-      "provider": "AutoStake",
-      "address": "https://sifchain-mainnet-lcd.autostake.com:443"
+      "provider": "ANODE.TEAM",
+      "address": "https://sifchain.api.m.anode.team"
     }
   ],
   "rpc": [
