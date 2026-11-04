@@ -1,0 +1,30 @@
+{
+  "chain_name": "dchat",
+  "api": [
+    {
+      "provider": "DChat",
+      "address": "https://dchat.online/rest"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "DChat",
+      "address": "https://dchat.online/rpc"
+    }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.50",
+  "coin_type": "118",
+  "min_tx_fee": "5000",
+  "addr_prefix": "dc",
+  "logo": "/logos/dchat.png",
+  "assets": [
+    {
+      "base": "udchat",
+      "symbol": "SHH",
+      "exponent": "6",
+      "coingecko_id": "",
+      "logo": "/logos/dchat.png"
+    }
+  ]
+}
