@@ -1,0 +1,51 @@
+{
+  "chain_name": "cosmos-provider-testnet",
+  "api": [
+    {
+      "address": "https://cosmos.api.ping.pub",
+      "provider": "Ping"
+    }
+  ],
+  "rpc": [
+    {
+      "address": "https://cosmos.api.ping.pub:443",
+      "provider": "Ping"
+    }
+  ],
+  "grpc": [
+    {
+      "address": "grpc.api.ping.pub:443",
+      "provider": "Ping"
+    }
+  ],
+  "sdk_version": "0.42.6",
+  "coin_type": "118",
+  "min_tx_fee": "800",
+  "assets": [
+    {
+      "base": "uatom",
+      "symbol": "ATOM",
+      "exponent": "6",
+      "coingecko_id": "cosmos",
+      "logo": "https://dl.airtable.com/.attachments/e54f814bba8c0f9af8a3056020210de0/2d1155fb/cosmos-hub.svg"
+    }
+  ],
+  "addr_prefix": "cosmos",
+  "theme_color": "#ce4747",
+  "logo": "https://dl.airtable.com/.attachments/e54f814bba8c0f9af8a3056020210de0/2d1155fb/cosmos-hub.svg",
+  "faucet": {
+    "amount": "5000000uatom,50000000uside",
+    "ip_limit": "1",
+    "address_limit": "10",
+    "fees": "1000uatom"
+  },
+  "wasm": {
+    "code_id": 165,
+    "checksum": "609e9e76a08ba9e2e2db3371de83fae1423cb889285b7c9f1bc0dfc0c8b5af2e",
+    "uploader": "cosmos1l4egv70jlgkgkmm6ggh7gpxr23gznfxf3dky2x",
+    "instantiate_example": {
+      "admin": "cosmos1l4egv70jlgkgkmm6ggh7gpxr23gznfxf3dky2x",
+      "commission_percent": 0
+    }
+  }
+}
