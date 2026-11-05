@@ -21,6 +21,10 @@
     {
       "provider": "Allnodes",
       "address": "https://chihuahua-rest.publicnode.com"
+    },
+    {
+      "provider": "vNodes[V] Ser[V]ices",
+      "address": "https://huahua-srvs.vnodesv.net/api"
     }
   ],
   "rpc": [
@@ -39,6 +43,10 @@
     {
       "provider": "Allnodes",
       "address": "https://chihuahua-rpc.publicnode.com:443"
+    },
+    {
+      "provider": "vNodes[V] [WW] Ser[V]ices",
+      "address": "https://huahua-srvs.vnodesv.net/rpc"
     }
   ],
   "snapshot_provider": "12611137be6f64f9a7fb8977614a5a6f257c1394@65.21.200.224:29656",
