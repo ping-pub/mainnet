@@ -2,30 +2,14 @@
   "chain_name": "passage",
   "api": [
     {
-      "provider": "polkachu",
-      "address": "https://passage-api.polkachu.com"
-    },
-    {
-      "provider": "nodestake",
-      "address": "https://api.passage.nodestake.top"
-    },
-    {
-      "provider": "Allnodes",
-      "address": "https://passage-rest.publicnode.com"
+      "provider": "Crypto Lab Tech",
+      "address": "https://api.passage.io"
     }
   ],
   "rpc": [
     {
-      "provider": "polkachu",
-      "address": "https://passage-rpc.polkachu.com:443"
-    },
-    {
-      "provider": "nodestake",
-      "address": "https://rpc.passage.nodestake.top"
-    },
-    {
-      "provider": "Allnodes",
-      "address": "https://passage-rpc.publicnode.com:443"
+      "provider": "Crypto Lab Tech",
+      "address": "https://rpc.passage.io:443"
     }
   ],
   "snapshot_provider": "",
