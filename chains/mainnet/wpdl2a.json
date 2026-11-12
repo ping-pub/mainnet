@@ -14,9 +14,16 @@
   ],
   "sdk_version": "0.53.5",
   "coin_type": "118",
-  "addr_prefix": "leea",
+  "addr_prefix": "poa",
   "logo": "/logos/leea.png",
   "assets": [
+    {
+      "base": "poatoken",
+      "symbol": "POATOKEN",
+      "exponent": "8",
+      "coingecko_id": "",
+      "logo": "/logos/leea.png"
+    },
     {
       "base": "leea",
       "symbol": "LEEA",
