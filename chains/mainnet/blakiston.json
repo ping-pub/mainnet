@@ -1,0 +1,37 @@
+{
+  "chain_name": "blakiston",
+  "registry_name": "blakiston",
+  "api": [
+    {
+      "provider": "Blakiston",
+      "address": "https://api.blakiston.org"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "Blakiston",
+      "address": "https://rpc.blakiston.org"
+    }
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.50.15",
+  "coin_type": "118",
+  "min_tx_fee": "50",
+  "addr_prefix": "bs9",
+  "logo": "/logos/blakiston.png",
+  "theme_color": "#FDB32C",
+  "keplr_features": [
+    "ibc-transfer",
+    "ibc-go",
+    "cosmwasm"
+  ],
+  "assets": [
+    {
+      "base": "tln",
+      "symbol": "TLN",
+      "exponent": "0",
+      "coingecko_id": "",
+      "logo": "/logos/blakiston.png"
+    }
+  ]
+}
