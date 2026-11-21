@@ -1,0 +1,28 @@
+{
+  "chain_name": "wpd",
+  "api": [
+    {
+      "provider": "peaceism.io",
+      "address": "https://api.peaceism.io"
+    }
+  ],
+  "rpc": [
+    {
+      "provider": "peaceism.io",
+      "address": "https://rpc.peaceism.io"
+    }
+  ],
+  "sdk_version": "0.53.5",
+  "coin_type": "118",
+  "addr_prefix": "wpd",
+  "logo": "https://explorer.peaceism.io/logo.png",
+  "assets": [
+    {
+      "base": "pcsm",
+      "symbol": "PCSM",
+      "exponent": "8",
+      "coingecko_id": "",
+      "logo": "https://explorer.peaceism.io/logo.png"
+    }
+  ]
+}
